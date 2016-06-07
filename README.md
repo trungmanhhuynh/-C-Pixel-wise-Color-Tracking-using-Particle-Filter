@@ -18,10 +18,12 @@ How to compile:
 - >> make 
 - >> ./main 
 
-How to use: 
+How to use:
+
 1. Replace image path in the main.cpp. The code is only working with set of frames instead of reading video directly. Thus, you should extract video into set of frames. 
+
 2. When the image is diplayed, I have written a function on_mouse to capture the mouse click pressed and released. Thus, using your mouse to draw a rectangle. Note that you will not see the bounding box immediately, but then when your press keyboard, the rectange will be displayed. 
-Now, enjoying the program. 
+ 
 3. THe rest of program, you just need to press keyboard, since I used waitkey(0) in my program. 
 
 Now, hope you enjoy
