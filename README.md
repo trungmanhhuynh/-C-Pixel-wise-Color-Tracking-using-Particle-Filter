@@ -11,8 +11,8 @@ Prerequisite:
 Tested Environment: C++ on CentOS 7.2. 
 
 How to compile: 
-Extract compressed file. 
-- >> "unzip folder" 
+- >> Extract compressed file. 
+- >> cd "unzip folder"
 - >> mkdir build 
 - >> cmake ../ 
 - >> make 
